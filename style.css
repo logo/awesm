@@ -1,0 +1,22 @@
+
+/**
+ * awe.sm
+ */
+
+.logo[data-logo="awe.sm"] {
+  width: 3.506066667em;
+  /* (525.91/75) * (1-.25-.25) - 0 */
+}
+
+.logo[data-logo="awe.sm"] > * {
+  background-image: url(images/logo.svg);
+  margin: .25em 0;
+}
+
+.logo[data-logo="awe.sm"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="awe.sm"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
